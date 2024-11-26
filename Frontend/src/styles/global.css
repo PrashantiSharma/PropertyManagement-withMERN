@@ -1,0 +1,86 @@
+/* global.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #2d82ba;
+  list-style-type: none;
+  margin: 0;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar li a:hover {
+  background-color: #2980b9;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #3498db;
+  color: white;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.property-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.property-card h3 {
+  font-size: 1.2rem;
+}
+
+.property-card p {
+  color: #3498db;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+}

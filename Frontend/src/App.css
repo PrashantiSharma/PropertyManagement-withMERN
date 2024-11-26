@@ -1,0 +1,189 @@
+/* App.css */
+
+/* Basic page layout */
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page styling */
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-container h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Styling for the entire app (header, main, footer) */
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more specific styling for the Login and Register pages as needed */
+/* Login & Register Form Styles */
+
+/* General form container styling */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input styles */
+input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Focused input styles */
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Submit button styles */
+button {
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Title and subtitle styles */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Paragraph text styles for messages */
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Link style (e.g., for 'Forgot password?' or switching between Login/Register) */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container for Login/Register page */
+.login-register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+}
+
+/* Add some padding and spacing for mobile responsiveness */
+@media (max-width: 600px) {
+  .login-register-container {
+    padding: 20px;
+  }
+
+  form {
+    padding: 20px;
+    width: 100%;
+  }
+}
+

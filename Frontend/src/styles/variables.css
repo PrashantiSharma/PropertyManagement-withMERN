@@ -1,0 +1,21 @@
+/* variables.css */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #f4f4f9;
+    --text-color: #333;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .animated-button {
+    background-color: var(--primary-color);
+  }
+  
+  .animated-button:hover {
+    background-color: var(--secondary-color);
+  }
+  
